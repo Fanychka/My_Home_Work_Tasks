@@ -10,7 +10,7 @@
         
         int second_number = int.Parse(second_input);
 
-        int maxNumber = second_number;
+        int maxNumber = second_number; // "присваиваем" максимальное значение любому вводимому числу (метод сравнения гирек) 
         int minNumber;
         
         if (second_number < first_number) maxNumber = first_number; minNumber = second_number;
