@@ -3,8 +3,6 @@
 string input_number = Console.ReadLine();
 int Number = int.Parse(input_number);
 
-//int number = 5;
-
 for (int i = 1; i < Number; i++)
 if (i % 2 == 0)
 
