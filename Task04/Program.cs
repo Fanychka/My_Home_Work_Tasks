@@ -1,25 +1,23 @@
-﻿        Console.WriteLine("Введите первое число: ");
+﻿        // Задача 4: 
+        // Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+        
 
-        string first_input = Console.ReadLine();
+        Console.WriteLine("Введите первое число: ");
 
-        int first_number = int.Parse(first_input);
+        int firstNumber = int.Parse(Console.ReadLine());
 
         Console.WriteLine("Введите второе число: ");
-
-        string second_input = Console.ReadLine();
         
-        int second_number = int.Parse(second_input);
+        int secondNumber = int.Parse(Console.ReadLine());
 
         Console.WriteLine("Введите третье число: ");
 
-        string third_input = Console.ReadLine();
-        
-        int third_number = int.Parse(third_input);
+        int thirdNumber = int.Parse(Console.ReadLine());
 
-        int maxNumber = second_number;
+        int maxNumber = firstNumber;
         
         
-        if (second_number < first_number) maxNumber = first_number; 
-        if (third_number > first_number) maxNumber = third_number;
+        if (secondNumber > firstNumber) maxNumber = secondNumber; 
+        if (thirdNumber > maxNumber) maxNumber = thirdNumber;
     
-        Console.WriteLine($"Максимум из этих трех чисел равен {maxNumber}");
+        Console.WriteLine($"Максимальным из этих трех чисел является число {maxNumber}");
