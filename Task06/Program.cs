@@ -4,15 +4,15 @@
 
  Console.WriteLine("Введите число: ");
 
-        string input_number = Console.ReadLine();
-        int Number = int.Parse(input_number);
+        
+        int number = int.Parse(Console.ReadLine());
 
         
         
         
         if (Number % 2 == 0) {
-                Console.WriteLine($"Введенное число {Number} является четным");
+                Console.WriteLine($"Введенное число {number} является четным");
                 }
         else {
-            Console.WriteLine($"Введенное число {Number} не является четным");
+            Console.WriteLine($"Введенное число {number} не является четным");
             }
