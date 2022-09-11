@@ -10,7 +10,7 @@
         
         
         
-        if (Number % 2 == 0) {
+        if (number % 2 == 0) {
                 Console.WriteLine($"Введенное число {number} является четным");
                 }
         else {
